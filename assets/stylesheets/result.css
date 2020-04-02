@@ -1,0 +1,290 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+    =====================================================
+    Header
+    =====================================================
+*/
+header {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: 125px;
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  margin-top: -9px;
+}
+header #hdcon {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+}
+header img {
+  display: inline-block;
+  width: 100px;
+}
+header #logo {
+  display: inline-block;
+  margin-top: 18px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+header #input {
+  display: inline-block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+header input {
+  display: inline-block;
+  border-radius: 25px;
+  height: 40px;
+  border: 1px solid #ddd9d9;
+  width: 700px;
+  margin-left: auto;
+  padding-left: 15px;
+}
+/*
+#inp {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  margin-top: 0px;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -37px;
+  height: 34px;
+  font-size: 16px;
+}
+*/
+#rnav {
+  display: inline-block;
+
+  width: 160px;
+
+  height: 40px;
+
+  margin-top: 18px;
+
+  right: 0px;
+
+  position: absolute;
+}
+
+#rnav a {
+  margin: 0 5px;
+}
+.sq {
+  display: inline-block;
+  outline: none;
+  vertical-align: middle;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 35px;
+  width: 35px;
+  background-size: 500px 58px;
+}
+.sq:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+  outline: none;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+#rnav img {
+  width: 20px;
+  padding: 5px 5px;
+}
+#sign {
+  line-height: 27px;
+  font-size: 13px;
+  color: white;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;
+
+  background: -moz-linear-gradient(top, #4387fd, #4683ea);
+  background: linear-gradient(top, #4387fd, #4683ea);
+  height: 30px;
+  padding: 0 12px;
+}
+header #navflex {
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  width: 900px;
+}
+header nav #mnav {
+  display: inline;
+  margin-left: 169px;
+}
+#mnav a {
+  display: inline-block;
+  padding: 0 10px 18px 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+#mnav a:focus {
+  border-bottom: 3px solid #1a73e8;
+  color: #1a73e8;
+}
+
+#svg1 {
+  block-size: 20px;
+  display: inline-block;
+  bottom: -5px;
+  position: absolute;
+  padding: 10px;
+  padding-bottom: 19px;
+  opacity: 50%;
+  margin-left: -30px;
+}
+#lnav {
+  margin-left: 260px;
+}
+#lnav a {
+  display: inline-block;
+  padding: 0 10px 18px 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+#htdb {
+  padding: 0 10px 8px 10px;
+}
+#htdb:hover {
+  background-color: #f8f8f8;
+  background-image: -moz-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
