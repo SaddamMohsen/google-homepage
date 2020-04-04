@@ -396,7 +396,7 @@ header {
   font-weight: bold;
   outline: none;
   background: #4285f4;
-
+  cursor: pointer;
   background: -moz-linear-gradient(top, #4387fd, #4683ea);
   background: linear-gradient(top, #4387fd, #4683ea);
   height: 30px;
